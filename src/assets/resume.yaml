@@ -1,0 +1,122 @@
+---
+keywords: [resume, software, front end, development, web, full stack, advertising, social media, api, javascript, python, go, rust, elixir]
+name:
+  first: Trevor
+  last: Borg
+email: trevor.borg@gmail.com
+site: github.com/tborg
+about: |
+  I'm a full stack web dev, leading partner API integrations with social media
+  advertising platforms at 4C since 2013.
+education:
+  - school: Loyola University
+    city: Chicago
+    degrees:
+      - degree: M.A.
+        year: 2013
+        subjects:
+          - Digital Humanities
+      - degree: B.A.
+        year: 2010
+        subjects:
+          - English
+          - Classical Studies
+tools:
+  - subject: Client
+    tags:
+      - Ember
+      - breeze
+      - redux
+      - chai
+  - subject: Server
+    tags:
+      - flask
+      - sqlalchemy
+      - alembic
+      - mysql
+      - celery
+      - rabbitmq
+      - redis
+      - mongodb
+      - elasticsearch
+      - OAuth
+  - subject: Ops
+    tags:
+      - sentry
+      - ansible
+      - fabric
+      - logstash
+      - kibana
+      - vagrant
+languages:
+  - status: Working
+    languages:
+      - javascript
+      - coffeescript
+      - es6
+      - python
+  - status: Playing
+    languages:
+      - elixir
+      - clojure
+      - rust
+      - go
+experience:
+  - company: 4C Insights
+    website: https://www.4cinsights.com
+    title: 'Software Engineer'
+    from: August 2012
+    to: Present
+    sidebar: |
+      - **Which API Integrations?**
+        - Snapchat — 2016
+        - Pinterest — 2015
+        - LinkedIn — 2014
+        - Twitter — 2013
+        - Facebook — 2012
+
+
+      - **What goes into an API Integration?**
+        - Authentication
+        - API Client
+        - Management UI
+        - Validation
+        - Reporting UI
+        - Stats aggregation
+        - Automation
+
+
+      - **What can you do with automation?**
+        - Budgeting
+        - Day Partitioning
+        - Rule-based Alerting
+        - Rule-based Optimization
+        - TV Sync (teletrax)
+        - Sports Sync (sportsradar)
+        - Weather Sync
+
+    description: |
+
+      **I work on a large single-page web application.** I specialize in the social
+      ad management platform, our SaaS product's critical revenue stream.
+
+      Products at 4C focus on **the intersection of TV and social media**. The ad
+      management platform delivers automation tools for delivering the right
+      message at the right time to the right people. The same tools are enabled
+      across **all major social ad publishers**, integrated into our standard platform.
+
+      When I started at 4C we were called VoxSup and operated on biweekly meetups
+      in a Northwestern professor's office. As of late 2016 I have nearly 200
+      coworkers with offices from Seattle to New York, London to Eindhoven. In
+      that time I have had the opportunity to **lead every new social advertising
+      partner API integration.**
+
+      As the partners multiply so do the ingredients in 4C's special sauce. I designed
+      and built key parts of the **reporting and automation infrastructure**. I wrote
+      browser-based tools for transforming ad hierarchies **to and from Excel
+      spreadsheets**. I helped write and maintain libraries for **bulk-editing** data grids
+      in our Ember frontend.
+
+      I do a lot of things at 4C so I hand a lot of things off. This has put me
+      in a position to **mentor** a number of junior developers. Keeping up with
+      people is just as much of what I do as keeping up with javascript.
