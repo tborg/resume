@@ -1,12 +1,16 @@
 <template>
-  <div class="column main">
+  <div class="experience row">
     <div class="job" v-for="job in jobs">
-      <div class="company">
-        <h3><a :href="job.website" target="_blank"></a>{{job.company}} - {{job.title}}</h3>
-        <p class="period">{{job.from}} - {{job.to}}</p>
+      <div class="company row">
+        <div class="eight columns">
+          <h6><a :href="job.website" target="_blank"></a>{{job.company}} - {{job.title}}</h6>
+        </div>
+        <div class="four columns">
+          <p class="period">{{job.from}} - {{job.to}}</p>
+        </div>
       </div>
-      <div class="sidebar" v-html="job.sidebar"></div>
-      <div class="description" v-html="job.description"></div>
+      <div class="sidebar four columns u-pull-right" v-html="job.sidebar"></div>
+      <div class="description eight columns" v-html="job.description"></div>
     </div>
   </div>
 </template>
@@ -37,16 +41,12 @@ export default {
     width: 100%;
   }
   .company {
-    display: flex;
-    align-content: flex-start;
-    align-items: flex-start;
     border-bottom: 2px solid purple;
   }
   .job .sidebar {
     display: inline-block;
     float: right;
-    margin-left: 1em;
-    margin-top: 0.5em;
+    padding-top: 1.5em;
   }
   .job .sidebar strong {
     color: darkcyan;
@@ -55,20 +55,22 @@ export default {
     margin-left: 1em;
     margin-top: 0.5em;
   }
+  .job .description {
+    margin-left: 0;
+  }
+  .job .description p:first-child {
+    padding-top: 1em;
+  }
   .job .description strong {
     color: purple;
   }
-  h3 {
-    flex: 2 1 0;
-    align-self: flex-start;
+  h6 {
     margin: 0;
     color: darkcyan;
   }
   .period {
-    flex: 1 1 0;
-    align-self: flex-start;
-    font-size: 1.1em;
-    padding-top: 0.07em;
+    font-size: 0.8em;
+    padding-top: 0.3em;
     margin: 0;
     color: darkcyan;
   }

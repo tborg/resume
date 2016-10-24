@@ -1,7 +1,11 @@
 <template>
-  <section>
-      <div class="column name">
-        <h1><span class="first">{{name.first}}</span> <span class="last">{{name.last}}</span></h1>
+  <section class="row header">
+      <div class="eleven columns name">
+        <h2><span class="first">{{name.first}}</span> <span class="last">{{name.last}}</span></h2>
+      </div>
+      <div class="one column links">
+        <a :href="fork">fork</a>
+        <a :href="print">print</a>
       </div>
   </section>
 </template>
@@ -9,7 +13,7 @@
 <script>
 export default {
   name: 'header-nav',
-  props: ['name', 'headshot', 'email'],
+  props: ['name', 'print', 'fork'],
   data() {
     return {};
   },
@@ -18,31 +22,22 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  .column.main {
+  .header h1 {
     margin-left: 0;
   }
-  .column.name {
+  .header .name {
     flex: 2 0 auto;
     color: darkcyan;
   }
-  .column.name .first {
+  .header .name .first {
     font-weight: 300;
   }
-  .column.email {
-    flex: 1 1 auto;
-    justify-content: flex-end;
-    align-self: flex-end;
+  .header a {
+    text-decoration: none;
+    color: grey;
     font-size: 12px;
   }
-  img {
-    height: 60px;
-    width: 60px;
-    border-radius: 45px;
-    margin-left: 3em;
-    margin-right: 1em;
-  }
-  h1 {
-    font-size: 34px;
-    margin-bottom: 0;
+  .header a:hover {
+    text-decoration: underline;
   }
 </style>

@@ -1,5 +1,7 @@
 ---
 keywords: [resume, software, front end, development, web, full stack, advertising, social media, api, javascript, python, go, rust, elixir]
+print: https://raw.githubusercontent.com/tborg/resume/master/src/assets/resume.yaml
+fork: https://github.com/tborg/resume
 name:
   first: Trevor
   last: Borg
@@ -50,13 +52,13 @@ tools:
       - vagrant
 languages:
   - status: Working
-    languages:
+    tags:
       - javascript
       - coffeescript
       - es6
       - python
   - status: Playing
-    languages:
+    tags:
       - elixir
       - clojure
       - rust
@@ -82,7 +84,7 @@ experience:
         - Management UI
         - Validation
         - Reporting UI
-        - Stats aggregation
+        - Aggregation
         - Automation
 
 
@@ -100,16 +102,16 @@ experience:
       **I work on a large single-page web application.** I specialize in the social
       ad management platform, our SaaS product's critical revenue stream.
 
-      Products at 4C focus on **the intersection of TV and social media**. The ad
-      management platform delivers automation tools for delivering the right
-      message at the right time to the right people. The same tools are enabled
-      across **all major social ad publishers**, integrated into our standard platform.
-
       When I started at 4C we were called VoxSup and operated on biweekly meetups
       in a Northwestern professor's office. As of late 2016 I have nearly 200
       coworkers with offices from Seattle to New York, London to Eindhoven. In
       that time I have had the opportunity to **lead every new social advertising
       partner API integration.**
+
+      Products at 4C focus on **the intersection of TV and social media**. The ad
+      management platform delivers automation tools for delivering the right
+      message at the right time to the right people. The same tools are enabled
+      across **all major social ad publishers**, integrated into our standard platform.
 
       As the partners multiply so do the ingredients in 4C's special sauce. I designed
       and built key parts of the **reporting and automation infrastructure**. I wrote
