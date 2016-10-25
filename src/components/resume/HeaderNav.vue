@@ -32,12 +32,4 @@ export default {
   .header .name .first {
     font-weight: 300;
   }
-  .header a {
-    text-decoration: none;
-    color: grey;
-    font-size: 12px;
-  }
-  .header a:hover {
-    text-decoration: underline;
-  }
 </style>
